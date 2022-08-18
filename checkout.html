@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/index.css">
+</head>
+<body>
+    <div id="navbar"></div>
+    <input type="text" placeholder="name">
+    <input type="text" placeholder="address">
+    <input type="text" placeholder="ph no.">
+    <button onclick="button1(main1,main2,main3,main4,5000,10000,15000,20000)">Place order</button>
+</body>
+</html>
+<script type="module">
+    import {navbar} from "../components/navbar.js"
+    document.getElementById("navbar").innerHTML = navbar();
+</script>
+<script src="./scripts/checkout.js"></script>

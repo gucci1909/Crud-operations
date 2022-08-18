@@ -1,0 +1,30 @@
+#navbar{
+    display: flex;
+    gap: 40px;
+    background-color: bisque;
+    height: 70px;
+    
+}
+a{
+ text-decoration: none;
+ color: black;
+}
+#container{
+    display: grid;
+    /* repeat(no of times , size) */
+    margin-top: 40px;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(6,200px);
+gap: 300px;
+}
+#sorting{
+    margin-top: 20px;
+
+}
+#filter{
+    margin-top: 20px;
+}
+img{
+    height: 200px;
+    width: 350px;
+}
