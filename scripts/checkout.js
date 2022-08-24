@@ -20,7 +20,7 @@ let main4=()=>{
 }
 function main5()
 {
-    window.location.href="/index.html"
+    window.location.href="./index.html"
 }
 function button1(main1,main2,main3,main4,delay1,delay2,delay3,delay4)
 {

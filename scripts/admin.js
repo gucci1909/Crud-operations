@@ -37,7 +37,7 @@ var data = JSON.parse(localStorage.getItem("mainlogin"))
 if(!data)
 {
     alert("Login first");
-    window.location.href = "/login.html";
+    window.location.href = "./login.html";
 
 }
 //delete
